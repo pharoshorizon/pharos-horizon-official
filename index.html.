@@ -7,23 +7,25 @@
     <style>
         body { 
             background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('1778066408836.png'); 
-            background-size: cover; color: white; text-align: center; font-family: sans-serif; 
+            background-size: cover; background-position: center; background-attachment: fixed;
+            color: white; text-align: center; font-family: sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh;
         }
-        .container { margin-top: 100px; padding: 20px; }
-        img { width: 150px; border-radius: 50%; border: 2px solid #58a6ff; }
-        h1 { letter-spacing: 5px; margin-top: 20px; }
-        .links a { display: block; margin: 10px; padding: 15px; background: #238636; color: white; text-decoration: none; border-radius: 5px; }
+        .container { padding: 30px; background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 20px; border: 1px solid rgba(255,255,255,0.2); max-width: 400px; }
+        img { width: 150px; border-radius: 50%; border: 3px solid #58a6ff; margin-bottom: 20px; }
+        h1 { font-size: 1.5rem; letter-spacing: 3px; margin-bottom: 10px; }
+        .links a { display: block; margin: 10px 0; padding: 12px; background: #238636; color: white; text-decoration: none; border-radius: 10px; font-weight: bold; }
+        .links a:hover { background: #2ea043; }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="1778066408836.png" alt="Logo">
+        <img src="1778066408836.png" alt="Logo Pharos Horizon">
         <h1>PHAROS HORIZON</h1>
+        <p>MOBILE LEGENDS SQUAD</p>
         <div class="links">
-            <a href="https://chat.whatsapp.com/DYXsqCVhC8BDbbDxEj4TmF">WHATSAPP</a>
-            <a href="https://discord.gg/NxBADKSV7">DISCORD</a>
+            <a href="https://chat.whatsapp.com/DYXsqCVhC8BDbbDxEj4TmF">WHATSAPP GROUP</a>
+            <a href="https://discord.gg/NxBADKSV7">DISCORD SERVER</a>
         </div>
     </div>
 </body>
 </html>
- 
