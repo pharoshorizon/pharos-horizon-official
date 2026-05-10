@@ -1,0 +1,105 @@
+index.html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharos Horizon | MLBB Squad</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body { 
+            font-family: 'Rajdhani', sans-serif; 
+            /* Background menggunakan gradasi gelap agar konten tetap terbaca */
+            background: linear-gradient(rgba(13, 17, 23, 0.9), rgba(13, 17, 23, 0.9)), 
+                        url('1000096825.png'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container { 
+            padding: 40px; 
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            backdrop-filter: blur(15px);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+            max-width: 450px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .logo-squad {
+            width: 180px;
+            height: auto;
+            margin-bottom: 20px;
+            filter: drop-shadow(0 0 10px rgba(88, 166, 255, 0.5));
+        }
+
+        .brand { 
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.8rem; 
+            letter-spacing: 3px;
+            background: linear-gradient(to right, #58a6ff, #bc85ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+        p { color: #8b949e; margin-bottom: 30px; letter-spacing: 2px; font-size: 0.9rem; }
+
+        .social-links { display: flex; flex-direction: column; gap: 12px; }
+
+        .social-links a { 
+            display: block; 
+            padding: 14px; 
+            background: rgba(255, 255, 255, 0.05); 
+            color: #ffffff; 
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px; 
+            text-decoration: none; 
+            font-weight: bold;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 0.8rem;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover { 
+            background: rgba(88, 166, 255, 0.2); 
+            border: 1px solid #58a6ff;
+            transform: scale(1.02);
+            box-shadow: 0 0 20px rgba(88, 166, 255, 0.3);
+        }
+
+        .footer { margin-top: 30px; font-size: 0.7rem; color: #484f58; letter-spacing: 1px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="1000096825.png" alt="Pharos Horizon Logo" class="logo-squad">
+        
+        <h1 class="brand">PHAROS HORIZON</h1>
+        <p>EST. 2026 | MOBILE LEGENDS SQUAD</p>
+        
+        <div class="social-links">
+            <a href="https://chat.whatsapp.com/DYXsqCVhC8BDbbDxEj4TmF" target="_blank">WHATSAPP COMMUNITY</a>
+            <a href="https://discord.gg/NxBADKSV7" target="_blank">DISCORD SERVER</a>
+            <a href="https://www.tiktok.com/@pharos_horizon?_r=1&_t=ZS-96FK1EQSKlZ" target="_blank">TIKTOK CONTENT</a>
+            <a href="https://x.com/pharoshorizon" target="_blank">TWITTER / X</a>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 PHAROS HORIZON SQUAD.
+        </div>
+    </div>
+</body>
+</html>
