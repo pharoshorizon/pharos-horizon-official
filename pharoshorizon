@@ -13,7 +13,7 @@ index.html
             font-family: 'Rajdhani', sans-serif; 
             /* Background menggunakan gradasi gelap agar konten tetap terbaca */
             background: linear-gradient(rgba(13, 17, 23, 0.9), rgba(13, 17, 23, 0.9)), 
-                        url('1000096825.png'); 
+                        url('1778066408836.png'); 
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
