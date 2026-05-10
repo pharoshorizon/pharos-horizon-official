@@ -1,2 +1,2 @@
-# index.html
+pharos horizon official
 Official Landing Page for Pharos Horizon (PH) MLBB Squad &amp; Gaming Community."
